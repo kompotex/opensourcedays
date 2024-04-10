@@ -20,5 +20,5 @@ targetCustomizations:
         replicaCount: 1
         host: cow-demo.suse.demo
         cow:
-          color: red
+          color: blue
     clusterName: demo
