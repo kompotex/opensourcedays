@@ -8,7 +8,7 @@ helm:
   # TODO: replace your@own.email with your email address
   values:
     registration:
-      emailAddress: your@own.email
+      emailAddress: jaroslaw.grzegorz.sliwinski@gmail.com
 dependsOn:
   - selector:
       matchLabels:
