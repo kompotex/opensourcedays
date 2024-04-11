@@ -21,4 +21,4 @@ targetCustomizations:
         host: cow-demo.suse.demo
         cow:
           color: red
-    clusterName: c-m-fh7xcndh
+    clusterName: fleet-aws
