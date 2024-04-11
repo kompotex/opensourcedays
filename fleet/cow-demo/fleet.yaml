@@ -21,4 +21,4 @@ targetCustomizations:
         host: cow-demo.suse.demo
         cow:
           color: red
-    clusterName: demo
+    clusterName: c-m-fh7xcndh
