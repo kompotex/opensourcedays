@@ -48,4 +48,4 @@ targetCustomizations:
           enabled: true
           auth:
             rootPassword: admin
-    clusterName: demo
+    clusterName: fleet-aws
