@@ -13,12 +13,21 @@ helm:
       tls:
         secretName: "cow-demo-tls"
 targetCustomizations:
-  - name: demo
+  - name: 1st-cluster
     # TODO: update W.X.Y.Z to your external IP address (look at Ingress Controller)
     helm:
       values:
-        replicaCount: 0
+        replicaCount: 1
         host: cow-demo.3.70.154.208.sslip.io
         cow:
           color: blue
     clusterName: fleet-aws
+  - name: 2nd-cluster
+    # TODO: update W.X.Y.Z to your external IP address (look at Ingress Controller)
+    helm:
+      values:
+        replicaCount: 1
+        host: cow-demo.x,y,z,v.sslip.io
+        cow:
+          color: blue
+    clusterName: fleet2-aws
