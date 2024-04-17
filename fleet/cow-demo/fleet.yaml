@@ -29,6 +29,6 @@ targetCustomizations:
         replicaCount: 1
         host: cow-demo.18.153.206.72.sslip.io
         cow:
-          color: pink
+          color: yellow
     clusterName: fleet-aws2
     
