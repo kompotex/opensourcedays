@@ -21,6 +21,6 @@ targetCustomizations:
         host: cow-demo.35.158.96.149.sslip.io
         cow:
           color: pink
-    clusterName: aws-dom1
+    clusterName: aws-tymczasowy
 
     
