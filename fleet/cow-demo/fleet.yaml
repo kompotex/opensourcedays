@@ -17,7 +17,7 @@ targetCustomizations:
     # TODO: update W.X.Y.Z to your external IP address (look at Ingress Controller)
     helm:
       values:
-        replicaCount: 10
+        replicaCount: 1
         host: cow-demo.3.70.72.227.sslip.io
         cow:
           color: red
