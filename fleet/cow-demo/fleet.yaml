@@ -18,8 +18,8 @@ targetCustomizations:
     helm:
       values:
         replicaCount: 2
-        host: cow-demo.3.70.154.208.sslip.io
+        host: cow-demo.3.70.72.227.sslip.io
         cow:
           color: blue
-    clusterName: fleet-aws
+    clusterName: fleet-aws1
     
