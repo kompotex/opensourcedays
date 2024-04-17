@@ -22,12 +22,4 @@ targetCustomizations:
         cow:
           color: blue
     clusterName: fleet-aws
-  - name: 2nd-cluster
-    # TODO: update W.X.Y.Z to your external IP address (look at Ingress Controller)
-    helm:
-      values:
-        replicaCount: 1
-        host: cow-demo.x,y,z,v.sslip.io
-        cow:
-          color: blue
-    clusterName: fleet2-aws
+    
