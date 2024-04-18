@@ -17,10 +17,10 @@ targetCustomizations:
     # TODO: update W.X.Y.Z to your external IP address (look at Ingress Controller)
     helm:
       values:
-        replicaCount: 1
+        replicaCount: 10
         host: cow-demo.18.197.55.179.sslip.io
         cow:
-          color: blue
+          color: green
     clusterName: aws-osd1
 
     
