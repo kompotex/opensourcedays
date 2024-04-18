@@ -22,5 +22,13 @@ targetCustomizations:
         cow:
           color: green
     clusterName: aws-osd1
-
+  - name: 2st-cluster
+    # TODO: update W.X.Y.Z to your external IP address (look at Ingress Controller)
+    helm:
+      values:
+        replicaCount: 5
+        host: cow-demo.52.58.129.224.sslip.io
+        cow:
+          color: red
+    clusterName: aws-osd2
     
