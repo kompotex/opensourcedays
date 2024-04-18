@@ -18,9 +18,9 @@ targetCustomizations:
     helm:
       values:
         replicaCount: 1
-        host: cow-demo.35.158.96.149.sslip.io
+        host: cow-demo.18.197.55.179.sslip.io
         cow:
           color: blue
-    clusterName: aws-tymczasowy
+    clusterName: aws-osd1
 
     
