@@ -18,10 +18,10 @@ targetCustomizations:
     helm:
       values:
         replicaCount: 10
-        host: cow-demo.18.197.55.179.sslip.io
+        host: cow-demo.18.184.119.42.sslip.io
         cow:
           color: green
-    clusterName: aws-osd1
+    clusterName: aws-demo
   - name: 2st-cluster
     # TODO: update W.X.Y.Z to your external IP address (look at Ingress Controller)
     helm:
